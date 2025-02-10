@@ -9,7 +9,7 @@ from cryptography.hazmat.backends import default_backend
 from cryptography.exceptions import InvalidKey
 from cryptography.hazmat.primitives.asymmetric import rsa, padding as asym_padding
 from cryptography.hazmat.primitives import serialization
-
+#creation date 10/02/2025
 # Constants
 SALT_SIZE = 16  # Salt size for PBKDF2
 KEY_SIZE = 32   # 256-bit key for AES-256
